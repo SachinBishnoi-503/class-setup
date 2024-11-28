@@ -9,7 +9,7 @@ const Added = () => {
         <div>
            
             <div className='flex justify-end flex-col mx-[100px]'>
-                <h2 className='p-[15px] w-[200px]      bg-red-400 border  font-semibold text-xl text-center my-8'>Name : {toggle ? "react js" : "next js"}</h2>
+                <h2 className='p-[15px] w-[200px] bg-red-400 border  font-semibold text-xl text-center my-8'>Name : {toggle ? "react js" : "next js"}</h2>
                 <button className='p-[15px] w-[200px]  bg-sky-400 border  text-white font-medium text-2xl' onClick={() => setToggle(!toggle)}>Change Name</button>
             </div>
             <div className='flex justify-center text-center items-center py-8'><p className='p-[15px] w-[150px] bg-red-700 border rounded-xl text-white font-medium text-2xl mr-7'>{count}</p></div>
